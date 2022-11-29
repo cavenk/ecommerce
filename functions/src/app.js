@@ -1,11 +1,11 @@
 import express from "express";
+import functions from "firebase-functions"
 import cors from "cors"
 import morgan from "morgan"
 import productRoutes from "./routes/productRoutes.js";
 import categoryRoute from "./routes/categoryRoute.js";
 import cartRoute from "./routes/cartRoute.js";
 import { paymentRoute } from "./routes/paymentRoute.js";
-import { AppConfig } from "./appConfig.js";
 
 const app = express()
 const port = process.env.PORT || 4000
@@ -27,6 +27,4 @@ app.use("/payment", paymentRoute)
 
 app.get("/", (req, res) => res.send("E-commerce app API"))
 
-
-
-app.listen(port, () => AppConfig.IS_DEV ? console.log(`App listening on : http://localhost:${port}`) : null)
+export default functions.https.onRequest(app)

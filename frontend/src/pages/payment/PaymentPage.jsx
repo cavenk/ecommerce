@@ -1,11 +1,4 @@
-import { faCircleNotch } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useEffect } from "react";
-import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
-import LoadingDialog from "../../components/LoadingDialog";
-import { errorSliceAction } from "../../redux/error/errorSlice";
 import PaymentError from "./PaymentError";
 import PaymentLoading from "./PaymentLoading";
 import PaymentSuccess from "./PaymentSuccess";

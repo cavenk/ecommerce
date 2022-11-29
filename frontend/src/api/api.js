@@ -1,5 +1,5 @@
 
-const url = "http://localhost:4000"
+const url = "https://us-central1-e-commerce-app-5f6bb.cloudfunctions.net/default"
 
 export function api_getCategory(){
     return fetch(url + "/category")
