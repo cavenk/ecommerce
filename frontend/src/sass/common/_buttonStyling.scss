@@ -1,0 +1,14 @@
+.buttonColorPrimary{
+    background-color: $color-primary;
+    color: white;
+}
+
+.buttonColorPositive{
+    background-color: $color-button-pos;
+    color: black;
+}
+
+.buttonErrorNoBackground{
+    background-color: transparent;
+    color: red;
+}

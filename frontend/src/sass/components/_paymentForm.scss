@@ -1,0 +1,25 @@
+
+#paymentForm{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    gap: 10px;
+
+    input{
+        padding: 10px;
+    }
+
+    h2{
+        margin-top: 20px;
+    }
+
+    button{
+        margin: 20px 0;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: pink;
+    }
+}

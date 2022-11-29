@@ -1,0 +1,36 @@
+//Base
+@import "./base/variables";
+@import"./base/reset";
+
+// Common
+@import "./common/buttonStyling";
+@import "./common/animation";
+@import "./common/loading";
+@import "./common/display";
+@import "./common/fontSize";
+@import "./common/otherStyling";
+@import "./common/textStyling";
+@import "./common/logo";
+@import "./common/anchorStyling";
+@import "./common/dimension";
+
+//Components
+@import"./components/mainHeader";
+@import "./components/homeListItem";
+@import "./components/productDetailsLoading";
+@import "./components/productDetails";
+@import "./components/cartListItem";
+@import "./components/cartDetails";
+@import "./components/cartListLoading";
+@import "./components/paymentForm";
+@import "./components/paymentProcess";
+@import "./components/loginHeader";
+@import "./components/loadingDialog";
+@import "./components/errorBar";
+
+//Pages
+@import "./pages/homePage";
+@import "./pages/productPage";
+@import "./pages/cartPage";
+@import "./pages/paymentPage";
+@import "./pages/loginPage";

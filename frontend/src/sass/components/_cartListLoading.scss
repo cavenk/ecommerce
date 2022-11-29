@@ -1,0 +1,25 @@
+
+.cart-list-loading-container{
+    padding: 10px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: auto repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: 
+    "image title title title"
+    "image p-line p-line p-line";
+
+    .image{
+        grid-area: image;
+        width: 75px;
+        height: 75px;
+    }
+
+    .title{
+        grid-area: title;
+    }
+
+    .p-line{
+        grid-area: p-line;
+    }
+}

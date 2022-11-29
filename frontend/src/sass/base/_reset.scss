@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    font-size: $font-size-2;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-size: $font-size-4;
+}
+
+p{
+    font-size: $font-size-2;
+    color: black;
+}
+
+span{
+    color: #666565;
+}
+
+button{
+    padding: 5px;
+    font-size: $font-size-2;
+    border-radius: 5px;
+    border: none;
+    cursor:pointer;
+}
+
+label{
+    font-size: $font-size-1;
+}
+
+input, select{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1.5px solid $color-liteGrey;
+    font-size: $font-size-2;
+}
+
+input::placeholder{
+    color: $color-liteGrey;
+}
+
+input:focus,
+select:focus{
+    border-color: $color-primary;
+}
+
+option:hover{
+    background-color: $color-primary;
+    color: white;
+}
+
+img{
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+header{
+    background-color: $color-primary;
+}
+
+footer{
+    background-color: $color-footer;
+    color: white;
+}
+
+nav{
+    background-color: $color-navBar;
+}
+
+#root{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}

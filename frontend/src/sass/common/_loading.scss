@@ -1,0 +1,21 @@
+
+
+
+//Style for loading component
+.loading{
+    animation: loadingAnimation 1s linear infinite alternate;
+}
+
+.loadingBack{
+    background-color: darkgrey;
+    border-radius: 10px;
+}
+
+.loadingT{
+    height: 1.5rem;
+}
+
+.loadingP{
+    height: 1.2rem;
+}
+

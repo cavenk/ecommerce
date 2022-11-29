@@ -1,0 +1,22 @@
+
+.errorBar{
+    position: fixed;
+    width: 500px;
+    bottom: 0;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: $color-errorBar;
+
+    p{
+        color: $color-primary;
+    }
+
+    button{
+        color: $color-button-pos;
+        background-color: transparent;
+    }
+
+    &.notVisible{
+        visibility: hidden;
+    }
+}

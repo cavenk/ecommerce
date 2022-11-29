@@ -1,0 +1,57 @@
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+}
+
+.gridRow{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.space10{
+    padding: 10px;
+    gap: 10px;
+}
+
+.space20{
+    padding: 20px;
+    gap: 20px;
+}
+
+.gap10{
+    gap: 10px;
+}
+
+.gap20{
+    gap: 20px;
+}
+
+.justifyEvenly{
+    justify-content: space-evenly;
+}
+
+.justifyCenter{
+    justify-content: center;
+}
+
+.justifyBetween{
+    justify-content: space-between;
+}
+
+.justifySelfCenter{
+    justify-self: center;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.alignStart{
+    align-items: flex-start;
+}

@@ -1,0 +1,23 @@
+
+.aColorWhite{
+    color: white;
+}
+
+.aColorBlack{
+    color: black;
+}
+
+.aColorPrimary{
+    color: $color-primary;
+}
+
+.aHoverBlack:hover{
+    color: black;
+    border-color: black;
+}
+
+.aHoverPrimary:hover{
+    color: $color-primary;
+    border-color: $color-primary;
+}
+

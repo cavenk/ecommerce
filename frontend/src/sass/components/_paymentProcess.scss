@@ -1,0 +1,26 @@
+
+#paymentProcess{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(200, 200, 200, 0.8);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #container{
+        padding: 20px;
+        border-radius: 12px;
+        background-color: white;
+        box-shadow: 2px 2px black;
+
+    }
+
+    .loading-icon{
+        font-size: 3em;
+        color: green;
+        animation: rotatingAnimation 1s infinite;
+    }
+}
